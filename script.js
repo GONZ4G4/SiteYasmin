@@ -7,9 +7,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// Função para o envio de formulário (Exemplo básico)
-document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert("Obrigado pelo contato! Em breve entraremos em contato.");
-    this.reset();  // Reseta o formulário
-});
+$('.carousel').carousel({
+    interval: 5000
+  })

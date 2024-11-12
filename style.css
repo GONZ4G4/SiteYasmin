@@ -13,27 +13,6 @@ body {
     line-height: 1.6;
 }
 
-/* Cabeçalho */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 2.5em;
-}
-
-header nav a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-header nav a:hover {
-    text-decoration: underline;
-}
 
 /* Seção Sobre */
 #about {
@@ -83,15 +62,6 @@ header nav a:hover {
     font-weight: bold;
 }
 
-#contact input,
-#contact textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
 #contact button {
     margin-top: 15px;
     padding: 10px 20px;
@@ -104,4 +74,15 @@ header nav a:hover {
 
 #contact button:hover {
     background-color: #555;
+}
+
+#carouselExampleCaptions {
+    width: 60%;
+    height: auto;
+}
+
+@media (max-width: 991.98px) {
+    #carouselExampleCaptions {
+        width: 100vh;
+    }
 }
