@@ -81,8 +81,40 @@ body {
     height: auto;
 }
 
+.custom-carousel {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.modal-body .carousel-item img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do modal */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 80vh; /* Limita a altura das imagens para 80% da altura da tela */
+    object-fit: contain; /* Garante que a imagem se ajuste sem distorção */
+  }
+
+  /* Botões de navegação - anterior e próximo */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6); /* Cor de fundo escura */
+  border-radius: 50%; /* Mantém o formato circular */
+}
+
+/* Ao passar o mouse sobre os botões */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Torna o fundo mais escuro ao passar o mouse */
+}
+
+/* Botões de navegação (setas) */
+.carousel-control-prev,
+.carousel-control-next {
+  color: #fff; /* Cor do texto (caso precise) */
+}
+
+
 @media (max-width: 991.98px) {
     #carouselExampleCaptions {
-        width: 100vh;
+        width: 100%;
     }
 }

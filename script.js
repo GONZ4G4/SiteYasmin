@@ -7,6 +7,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-$('.carousel').carousel({
+$('#carouselExampleCaptions').carousel({
     interval: 5000
-  })
+});
+
