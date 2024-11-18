@@ -11,7 +11,7 @@ Yasmin é uma profissional apaixonada por contar histórias por meio da fotograf
 - **Especialidades:** Ensaios pessoais, fotografia familiar, eventos e esportiva.  
 - **Formação:** Graduada em tecnólogo de fotografia, com cursos práticos que complementam sua expertise.  
 
-> **"Cada momento tem uma história única, e minha missão é eternizá-la em imagens." – [Nome do Cliente]**
+> **"Cada momento tem uma história única, e minha missão é eternizá-la em imagens."**
 
 ---
 
