@@ -1,3 +1,25 @@
+:root {
+    --black: #010101;
+    --white: #ffffff;
+    --speckled_white: #e1dbcf;
+    --beige: #F5F5DC;
+    --latte: #a17548;
+    --honey: #b36d39;
+    --espresso: #6c3322;
+    --terracota: #a84d2e;
+    --olive_green: #605b3b;
+    --olive_green2: #50603b;
+
+    --terracota2: #E2725B;
+    --beige2: #F5EFE6;
+    --brown: #6D3B28;
+    --burnt-orange: #D98E04;
+    --moss-green: #5A6650;
+
+    --dark-terracota: #6D3B28;
+    --light-beige: #F5EFE6;
+  }
+
 /* Reset básico */
 * {
     margin: 0;
@@ -7,23 +29,56 @@
 
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f5f5f5;
+    font-family: 'Lora', serif; /* Título */
+    color: var(--brown);
+    background-color: var(--beige2);
     line-height: 1.6;
 }
 
+nav {
+    background-color: var(--dark-terracota);
+    color: var(--beige);
+}
+
+nav h1 {
+    color: var(--beige);
+}
+
+nav li a{
+    color: var(--beige);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    text-decoration: none;
+    color: var(--honey);
+}
 
 /* Seção Sobre */
 #about {
     padding: 50px;
     text-align: center;
+    background-color: var(--dark-terracota);
+    color: var(--beige);
 }
 
 /* Seção Portfólio */
 #portfolio {
     padding: 50px;
     text-align: center;
+}
+
+#portfolio button{
+    transition: transform 0.2s ease-in-out;
+}
+
+#portfolio button:hover{
+    transform: scale(1.05);
 }
 
 .gallery {
@@ -112,9 +167,32 @@ body {
   color: #fff; /* Cor do texto (caso precise) */
 }
 
+#contact a {
+    background-color: var(--honey);
+    color: var(--beige);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#contact a:hover{
+    transform: scale(1.1);
+}
+
+#footer {
+    background-color: var(--dark-terracota);
+    color: var(--beige);
+}
 
 @media (max-width: 991.98px) {
     #carouselExampleCaptions {
         width: 100%;
+    }
+
+    nav li a{
+        color: var(--white);
     }
 }
