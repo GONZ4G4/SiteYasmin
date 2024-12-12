@@ -30,13 +30,13 @@
 /* Estilos gerais */
 body {
     font-family: 'Lora', serif; /* Título */
-    color: var(--honey);
+    color: var(--dark-terracota);
     background-color: var(--beige2);
     line-height: 1.6;
 }
 
 nav {
-    background-color: var(--honey);
+    background-color: var(--dark-terracota);
     color: var(--beige);
 }
 
@@ -56,14 +56,14 @@ nav li a{
 
 nav li a:hover{
     text-decoration: none;
-    color: var(--honey);
+    color: var(--dark-terracota);
 }
 
 /* Seção Sobre */
 #about {
     padding: 50px;
     text-align: center;
-    background-color: var(--honey);
+    background-color: var(--dark-terracota);
     color: var(--beige);
 }
 
@@ -97,7 +97,7 @@ nav li a:hover{
 }
 
 .hr-text{
-    background: var(--honey);
+    background: var(--dark-terracota);
 }
 
 .gallery img:hover {
@@ -172,7 +172,7 @@ nav li a:hover{
 }
 
 #contact a {
-    background-color: var(--dark-terracota);
+    background-color: var(--honey);
     color: var(--beige);
     border: none;
     padding: 10px 20px;
@@ -187,7 +187,7 @@ nav li a:hover{
 }
 
 #footer {
-    background-color: var(--honey);
+    background-color: var(--dark-terracota);
     color: var(--beige);
 }
 
